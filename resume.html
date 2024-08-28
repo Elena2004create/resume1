@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Аблаутова Елена</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .resume-container {
+            display: flex;
+            width: 100%;
+            max-width: 1000px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .left-column {
+            width: 30%;
+            background-color: #f7e6d4;
+            padding: 20px;
+            border-right: 2px solid #e0e0e0;
+        }
+        .right-column {
+            width: 70%;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            color: #4d4d4d;
+            margin-bottom: 10px;
+        }
+        .job-title {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #7f564d;
+            padding-bottom: 5px;
+        }
+        .contact-info, .languages, .skills, .additional-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p, .languages p, .skills p, .additional-info p {
+            margin: 5px 0;
+            color: #333;
+        }
+        .contact-info span, .languages span {
+            display: block;
+            color: #7f564d;
+        }
+        .skills ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skills li {
+            background-color: #d4a373;
+            color: #fff;
+            margin-bottom: 8px;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .skills li span {
+            display: block;
+            font-size: 14px;
+            color: #ffe5b4;
+            margin-top: 5px;
+        }
+        .education, .courses, .about {
+            margin-bottom: 20px;
+        }
+        .courses p, .about p {
+            margin: 10px 0;
+            color: #333;
+        }
+        .education p {
+            margin: 5px 0;
+            color: #333;
+        }
+        .education .institution, .courses .course {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .github-link {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .github-link a {
+            text-decoration: none;
+            color: #7f564d;
+        }
+        .github-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="left-column">
+            <h1>Аблаутова Елена</h1>
+            <p class="job-title">Начинающий разработчик</p>
+            <div class="contact-info">
+                <h2 class="section-title">Контакты</h2>
+                <p><span>Город:</span> Москва</p>
+                <p><span>Возраст:</span> 20 лет</p>
+                <p><span>Телефон:</span> +7 996 722-52-25</p>
+                <p><span>Email:</span> q62523474@gmail.com</p>
+                <p><span>Telegram:</span> @ghutrt</p>
+            </div>
+            <div class="languages">
+                <h2 class="section-title">Языки</h2>
+                <p><span>Английский:</span> B1 - Средний</p>
+            </div>
+            <div class="skills">
+                <h2 class="section-title">Навыки</h2>
+                <ul>
+                    <li>Git, Maven, Linux<span>Базовый</span></li>
+                    <li>Hibernate ORM, JDBC<span>Базовый</span></li>
+                    <li>REST API<span>Начальный</span></li>
+                    <li>JUnit, Mockito, Espresso<span>Начальный</span></li>
+                    <li>SQL: SQLite, PostgreSQL<span>Средний</span></li>
+                    <li>Spring MVC, Spring Boot<span>Базовый</span></li>
+                    <li>Java SE, Kotlin, Python<span>Средний</span></li>
+                    <li>Swagger, Postman<span>Базовый</span></li>
+                    <li>Apache Kafka<span>Начальный</span></li>
+                </ul>
+            </div>
+            <div class="additional-info">
+                <h2 class="section-title">Доп. Инфо</h2>
+                <p>Ссылка на гит: <a href="https://github.com/Elena2004create">github.com/Elena2004create</a></p>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="education">
+                <h2 class="section-title">Образование</h2>
+                <p class="institution">РТУ МИРЭА, Бакалавр</p>
+                <p>Институт кибербезопасности и цифровых технологий, Информационные системы и технологии</p>
+                <p>2021-2026</p>
+            </div>
+            <div class="courses">
+                <h2 class="section-title">Курсы</h2>
+                <p class="course">IT Академия Samsung</p>
+                <p>Мобильная разработка на Kotlin</p>
+                <p>2024</p>
+                <p class="course">Positive Technologies</p>
+                <p>PTStart</p>
+                <p>2023</p>
+                <p class="course">Skillbox</p>
+                <p>Java-разработчик</p>
+                <p>2022</p>
+                <p class="course">Дом научной коллаборации им. Н.Н. Семенова</p>
+                <p>Язык Java с элементами олимпиадного программирования</p>
+                <p>2021</p>
+            </div>
+            <div class="about">
+                <h2 class="section-title">О себе</h2>
+                <p>Некоторые учебные проекты:</p>
+                <ul>
+                    <li>back-end приложение, аналогичное авито (стек технологий: Java, Hibernate, PostgreSQL, Lombok, Swagger-документация, Spring Boot, JPA);</li>
+                    <li>мобильное приложение по типу туристического справочника (стек технологий: Kotlin (Android Studio), SQLite, Room, инструменты для работы с картами и навигацией: Yandex MapKit, Яндекс Геокодер, Figma);</li>
+                    <li>back-end приложение аккаунт пользователя банка (стек технологий: Java, Hibernate, PostgreSQL, Lombok, Postman, Spring Boot, Spring Data JPA);</li>
+                    <li>веб-блог (стек технологий: Java, Crud, MySQL, Lombok, Postman, Spring Boot)</li>
+                </ul>
+                <p>Есть опыт написания небольших unit-тестов, ui-тестов для некоторых своих приложений, в частности для туристического справочника использовались технологии Mockito, JUnit, Espresso.</p>
+                <p>Прошла стажировку в Positive Technologies «PTStart», где изучала основы безопасности Windows и Linux, сетевые технологии и веб-разработку. Опыт работы с Kali Linux и WireShark включает изучение сетевых протоколов, анализ трафика, работу с командной строкой, проведение атак с целью поиска уязвимостей на сайтах.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
